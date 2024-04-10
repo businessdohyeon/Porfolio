@@ -1,0 +1,45 @@
+#left-sidebar{
+    width: 30%;
+    min-height: 50%;
+    margin: 0 auto;
+    border-radius: 20vw;
+    background-color: aliceblue;
+    border: 3px solid powderblue;
+    padding: 5% 0;
+}
+#left-sidebar li{
+    width: 70%;
+    margin: 15% auto;
+}
+.link-icon{
+    width: 100%;
+    border: 3px solid powderblue;
+    border-radius: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.link-icon::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#left-sidebar-Gmail .link-icon{
+    background-image: url("https://png.pngtree.com/png-vector/20230817/ourmid/pngtree-google-email-mail-application-vector-png-image_9183278.png");
+}
+#left-sidebar-Github .link-icon{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/50/30/59/1000_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg");
+}
+#left-sidebar-LinkedIn .link-icon{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png");
+}
+
+#left-sidebar a:hover{
+    opacity: 0.5;
+}
+
+#left-sidebar a:active{
+    opacity: 0.3;
+}

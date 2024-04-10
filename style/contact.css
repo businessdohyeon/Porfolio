@@ -1,0 +1,85 @@
+#contact h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#contact .card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10%;
+}
+
+#contact article.card{
+    border: 2px solid gray;
+    box-shadow: 5px 5px 0 rgb(195, 195, 195);
+    margin: 5%;
+    margin-bottom: 30%;
+    border-radius: 5px;
+}
+#contact article.card:hover{
+    border: 2px solid black;
+}
+
+#contact .card .circle{
+    border: 2px solid gray;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: -20%;
+    background-color: white;
+
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#contact .card .circle::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#contact .card .content{
+    /* border: 1px solid red; */
+    padding: 5% 5%;
+}
+
+#contact .card h2{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 10%;
+    text-align: center;
+}
+#contact .card address{
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+#contact .card p{
+    margin-bottom: 5%;
+    overflow-wrap: break-word;
+}
+#contact .card address p{
+    margin-bottom: 5%;
+    overflow-wrap: anywhere;
+}
+
+
+#G-mail .circle{
+    background-image: url("https://png.pngtree.com/png-vector/20230817/ourmid/pngtree-google-email-mail-application-vector-png-image_9183278.png");
+}
+#Github .circle{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/50/30/59/1000_F_250305943_sDC6la1N1fDl3bLgfLxOkQwItIodsdMb.jpg");
+}
+#Tstory .circle{
+    background-image: url("https://i.namu.wiki/i/Jz0MFNR7_7LHx1Yda0Hy6929g3BD5fWmaARdUMMFPkFIAVC_ewY7BEcoIGhepmTKRBKmSxRSUBjI7pklIZLaAA.svg");
+}
+#LinkedIn .circle{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/018/930/587/original/linkedin-logo-linkedin-icon-transparent-free-png.png");
+}
+#SaramIn .circle{
+    background-image: url("https://reviewinsight-contents.s3.ap-northeast-2.amazonaws.com/software/images/16772417517500lhjp.jpg");
+}
+/* #bla .circle{
+    background-image: url("");
+} */

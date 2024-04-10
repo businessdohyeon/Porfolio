@@ -1,0 +1,94 @@
+#projects h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#projects article{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+#projects .img-container{
+    padding-right: 20%;
+}
+
+#projects .circle{
+    border-radius: 50%;
+    border: 3px solid black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#projects .circle::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#projects h2{
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+#projects hr{
+    border: 0.5px solid rgb(207, 207, 207);
+    margin: 5% 0;
+}
+
+#projects address{
+    margin-bottom: 3%;
+    font-size: 1vw;
+    font-weight: 100;
+}
+#projects address:hover{
+    opacity: 0.5;
+}
+#projects address:active{
+    opacity: 0.3;
+}
+
+#projects p{
+    margin-bottom: 3%;
+    font-size: 1.5vw;
+    font-weight: normal;
+    margin-bottom: 5%
+}
+
+#projects .used-skills span{
+    border: 2px solid gray;
+    padding: 1px 8px;
+    border-radius: 15px;
+    font-size: 1.3vw;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 1%;
+}
+#projects .used-skills .used-skills-FE{
+    background-color: lemonchiffon;
+}
+#projects .used-skills .used-skills-BE{
+    background-color: palegreen;
+}
+#projects .used-skills .used-skills-DB{
+    background-color: tomato;
+}
+#projects .used-skills .used-skills-Etc{
+    background-color: #ededed;
+}
+
+#projects .img-container a:hover{
+    opacity: 0.5;
+}
+#projects .img-container a:active{
+    opacity: 0.3;
+}
+
+
+
+#MyOwnMusicCollection .img-container .circle{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShXZ4hwp3maYIBwoeeU_WwSJl5e--qD9bsT59t7W_N_Q&s");
+}
+#YT-vid-speed-controller .img-container .circle{
+    background-image: url("https://lh3.googleusercontent.com/MScB3Xy9ms9suzCce07OktE8jzjA9LX8QMNQXkTBlxRHKV9VwEODOwjOShrLFgrcUiq2Klw949uYRBIXmAf_js5hGw=s120");
+}

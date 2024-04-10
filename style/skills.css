@@ -1,0 +1,77 @@
+#skills h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+#skills summary{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+#skills article{
+    margin-bottom: 5%;
+}
+
+#skills ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#skills li{
+    width: 20%;
+    padding: 3%;
+
+    /* border: 1px solid black; */
+}
+
+#skills li p{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+#skills .rectangle{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#skills .rectangle::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#HTML .rectangle{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png");
+}
+
+#CSS .rectangle{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png");
+}
+
+#JavaScript .rectangle{
+    background-image: url("https://cdn.worldvectorlogo.com/logos/logo-javascript.svg");
+}
+
+#Node .rectangle{
+    background-image: url("https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png");
+}
+#Express .rectangle{
+    background-image: url("https://seeklogo.com/images/E/express-logo-E9DA5D0AF7-seeklogo.com.png");
+}
+#C .rectangle{
+    background-image: url("https://cdn.worldvectorlogo.com/logos/c-1.svg");
+}
+#Cpp .rectangle{
+    background-image: url("https://cdn.worldvectorlogo.com/logos/c-1.svg");
+}
+#React .rectangle{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png");
+}
+#StyledComponent .rectangle{
+    background-image: url("https://www.cdnlogo.com/logos/s/10/styled-components.svg");
+}
